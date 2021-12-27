@@ -1,0 +1,17 @@
+:root{
+    --color1: #17BEBB;
+    --colorx: #E4572E;
+    --color2: #17BEBB;
+    --color3: #2e282a;
+    --color4: #FFC914;
+    --color5: #76B041; 
+}
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    background-image: linear-gradient(var(--color1), var(--color2));
+    height: 100vh;
+  }

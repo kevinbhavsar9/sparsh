@@ -1,0 +1,76 @@
+/*************BASIC************/
+
+/*************HEADER***********/
+
+.nav-login {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+/**********BODY*****************/
+/* * {
+  box-sizing: border-box,
+} */
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Full-width input fields */
+.input {
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 400px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1bb;
+
+  text-align: center;
+}
+
+.input:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/*
+ Overwrite default styles of hr*/
+.hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  border-radius: 10px;
+  background-color: var(--color4);
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 400px;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+/* Set a grey background color and center the text of the "sign in" section*/
+.instructions {
+  text-align: center  ;
+  background-color: #f1f1f1bb;
+  border-radius: 10px;
+  margin: auto;
+  width: fit-content;
+  padding: 5px 25px 5px 25px ;
+}

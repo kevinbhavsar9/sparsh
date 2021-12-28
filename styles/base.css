@@ -12,6 +12,6 @@
 
 body{
     margin: 0;
-    background-image: linear-gradient(var(--color1), var(--color2));
+    background-color: var(--color1);
     height: 100vh;
   }

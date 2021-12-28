@@ -7,7 +7,7 @@ export default function Login(){
 <html>		
 	<header>
 		<nav className={styles.nav}>
-			<Link href="/">
+			<Link href="/" passHref>
 				<div style={{cursor: 'pointer'}}>
 				<Image src={require('../public/logo.png')} alt="sparshlogo"/>
 				</div>

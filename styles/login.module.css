@@ -2,20 +2,16 @@
 
 /*************HEADER***********/
 
-.nav-login {
+.nav{
+    background-image: linear-gradient(var(--color3), rgba(255, 255, 255, 0));
     position: fixed;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     z-index: 1;
+    padding: 20px 0 20px 0;
 }
 
-/**********BODY*****************/
-/* * {
-  box-sizing: border-box,
-} */
-
-/* Add padding to containers */
 .container {
   padding: 16px;
   text-align: center;

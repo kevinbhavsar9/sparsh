@@ -1,14 +1,17 @@
 import Image from 'next/image'
 import styles from '../styles/login.module.css'
+import Link from 'next/link'
 
 export default function Login(){
 	return(
 <html>		
 	<header>
-		<nav id="nav-login">
-			<a href="/" style={{height: 55+ 'px'}}>
-				<Image src={require('../public/logo.png')} alt="sparshlogo" style={{margin:15+ 'px', height:25+ 'px'}} />
-			</a>
+		<nav className={styles.nav}>
+			<Link href="/">
+				<div style={{cursor: 'pointer'}}>
+				<Image src={require('../public/logo.png')} alt="sparshlogo"/>
+				</div>
+			</Link>
 		</nav>
 	</header>
 
@@ -33,7 +36,7 @@ export default function Login(){
 			</div>
 		
 			<div className={styles.instructions}>
-				<p>Contact <a href="tel:+919409656394">+91 9409 6563 94</a> or <a href="mailto:lharsh175@gmail.com">lharsh175@gmail.com</a> if you face any difficulties. </p>
+				<p>Contact <Link href="tel:+919409656394">+91 9409 6563 94</Link> or <Link href="mailto:lharsh175@gmail.com">lharsh175@gmail.com</Link> if you face any difficulties. </p>
 			</div>
 		</form>
 	</body>

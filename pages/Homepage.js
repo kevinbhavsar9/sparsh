@@ -8,7 +8,7 @@ export default function Homepage(){
   <nav>
     <Link href="/" passHref>
 	  {/* --Total height of navbar = 125, logo = 65px , pad = 30+30, 60+65 = 125  */}
-    <div style={{height: 65 +'px', padding:30 +'px'}}>
+    <div style={{height: 65 +'px', padding: 30 +'px'}}>
 	  <Image src={require('../public/logo.png')} alt="sparshlogo" />
     </div>
     </Link> 
